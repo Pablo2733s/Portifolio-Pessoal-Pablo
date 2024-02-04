@@ -192,8 +192,10 @@ ul {
 }
 
 .colorwhite img {
-    display: flex;
-    margin-right: 10px;
+    position: relative;
+    right: 10px;
+    bottom: -50px;
+    height: 200px;
     justify-content: end;
 
 }
@@ -256,95 +258,4 @@ position: absolute; left: 25px; bottom: -1120px
     gap: 8px;
     color: white;
     background-color: black;
-}
-
-
-
-@media (max-width: 480px) {
-    .containerbranco {
-        display: flex;
-        align-items: center;
-        height: 220px;
-        width: 100%;
-        background-color: whitesmoke;
-        padding: 5px;
-    }
-
-    .containerbranco img {
-        display: flex;
-        align-items: center;
-        height: 80px;
-        margin-left: 15px;
-
-    }
-
-    .containeroxo {
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-    }
-    .containeroxo h2 {
-        font-size: 20px;
-        font-family: cursive;
-    }
-
-    .containeroxo p {
-        font-size: 12px;
-        font-family: cursive;
-    }
-
-    .caixas {
-        height: 400px;
-        width: 100%;
-        background-color: #7B2CBF;
-    }
-
-
-
-    .contcaixa1,
-    .contcaixa2,
-    .contcaixa3 {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: white;
-        margin-top: 8px;
-        height: 60px;
-        position: relative;
-        bottom: -60px;
-        left: 35px;
-        width: 80%;
-        background-color: #240046;
-    }
-
-    .setas {
-        height: 200px;
-    }
-
-    .colorwhite {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-
-    }
-
-    .colorwhite img {
-        display: none;
-    }
-    .colorwhite h2 {
-        display: none;
-    }
-    
-    .novidade {
-        height: 400px;
-        background-color: #310060;
-        color: white;
-    }
-
-
-
-
-/* Outras regras de estilo permanecem inalteradas */
 }
