@@ -80,7 +80,7 @@ ul {
 }
 
 .containerbranco {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: whitesmoke;
     padding: 10px;
@@ -100,7 +100,7 @@ ul {
 }
 
 .containeroxo {
-    height: 200px;
+    height: 300px;
 }
 
 
@@ -137,7 +137,7 @@ ul {
 
 
 .caixas {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: #7B2CBF;
 }
