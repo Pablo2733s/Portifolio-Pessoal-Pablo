@@ -227,6 +227,30 @@ ul {
     }
 }
 
+/* Estilos para telas menores ou iguais a 30 polegadas */
+@media only screen and (max-width: 30in) {
+    .containerbranco {
+        height: 600px; /* Ajuste a altura conforme necessário */
+    }
+
+    .containerbranco img {
+        height: 250px; /* Ajuste a altura da imagem conforme necessário */
+        max-width: 100%; /* A imagem não ultrapassará a largura total do contêiner */
+    }
+}
+
+/* Estilos para telas maiores que 30 polegadas */
+@media only screen and (min-width: 30.1in) {
+    .containerbranco {
+        height: 800px; /* Ajuste a altura conforme necessário */
+    }
+
+    .containerbranco img {
+        height: 350px; /* Ajuste a altura da imagem conforme necessário */
+        max-width: 100%; /* A imagem não ultrapassará a largura total do contêiner */
+    }
+}
+
 
 .novo2 {
     height: 150px;
