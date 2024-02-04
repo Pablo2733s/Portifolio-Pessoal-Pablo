@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #310060;
+}
+
+a {
+    text-decoration: none;
+}
+details {
+
+        max-width: 100%;
+        margin: 0 auto; 
+} 
+
+summary {
+    all: unset;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px;
+    color: black;
+    background-color: whitesmoke;
+    max-width: 100%;
+    display: block; 
+    box-sizing: border-box; 
+}
+
+summary:hover {
+    background-color: black;
+    color: white;
+    transition: .6s;
+}
+
+details ul:hover {
+    background-color: black;
+    color: white;
+    transition: .6s;
+}
+
+details ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+
+ul {
+    background-color: whitesmoke;
+}
+
+.container1 {
+    background-image: url("https://wallpaper4k.com.br/wp-content/uploads/2022/10/wallpapers-roxo-em-4k-36.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding: 10px;
+    background-color: #7B2CBF;
+    height: 300px;
+    width: 100%;
+}
+
+.container {
+    margin-left: 2%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.containerbranco {
+    height: 300px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.containerbranco img {
+    margin-top: 30px;
+    margin-left: 17.5px;
+    height: 170px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.containerbranco img:hover {
+    transform: scale(1.10);
+    transition: .6s;
+}
+
+.containeroxo {
+    height: 200px;
+}
+
+
+.astronauta img {
+    height: 150px;
+    cursor: pointer;
+}
+.astronauta img:hover {
+    transition: .10s;
+    transform: scale(1.30);
+}
+
+.material-symbols-outlined:hover {
+    transition: .10s;
+    transform: scale(1.15);
+}
+
+.containeroxo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.astronauta {
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    padding: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.caixas {
+    height: 300px;
+    width: 100%;
+    background-color: #7B2CBF;
+}
+
+.contcaixa1,
+.contcaixa2,
+.contcaixa3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 8px;
+    height: 60px;
+    position: relative;
+    bottom: -60px;
+    left: 70px;
+    width: 80%;
+    background-color: #240046;
+}
+
+
+.contcaixa1 img  {
+    height: 60px;
+    width: 80px;
+}
+
+.contcaixa2 img  {
+    height: 60px;
+    width: 80px;
+}
+
+.contcaixa3 img  {
+    height: 60px;
+    width: 80px;
+}
+
+.setas {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    background-color: #310060;
+}
+
+.colorwhite {
+    display: flex;
+    justify-content: end;
+    height: 200px;
+    background-color: #7B2CBF;
+    color: #310060;
+}
+
+.colorwhite img {
+    display: flex;
+    margin-right: 10px;
+    justify-content: end;
+
+}
+.colorwhite img:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: .6s;
+}
+
+
+.novo2 {
+    height: 150px;
+    background-color: #7B2CBF;
+}
+
+.colorwhitwposition p {
+position: absolute; left: 25px; bottom: -1120px
+}
+
+.novidade {
+    height: 300px;
+    background-color: #310060;
+    color: white;
+}
+.novidadenovo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novidade button {
+    background-color: #0e76a8;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.novidade button:hover {
+    transition: .10s;
+    transform: scale(1.05);
+}
+
+.novidade2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.icones {
+    display: flex;
+    height: 40px;
+    margin-top: -20px;
+    justify-content: center;
+    cursor: pointer;
+    gap: 8px;
+    color: white;
+    background-color: black;
+}
