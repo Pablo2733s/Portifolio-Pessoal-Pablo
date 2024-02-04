@@ -145,6 +145,11 @@ ul {
     background-color: #7B2CBF;
 }
 
+.caixas h5 {
+    position: relative;
+    bottom: -50px;
+}
+
 .contcaixa1,
 .contcaixa2,
 .contcaixa3 {
@@ -156,8 +161,7 @@ ul {
     height: 60px;
     position: relative;
     bottom: -60px;
-    left: 70px;
-    width: 80%;
+    width: 100%;
     background-color: #240046;
 }
 
@@ -188,18 +192,11 @@ ul {
 
 .colorwhite {
     display: flex;
-    justify-content: end;
-    height: 200px;
-    background-color: #7B2CBF;
-    color: #310060;
-}
-
-.colorwhite {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Ajuste para alinhamento à esquerda */
-    height: auto; /* Ajuste para altura automática */
+    align-items: center; /* Ajuste para alinhamento à esquerda */
+    height: 200px; /* Ajuste para altura automática */
     background-color: #7B2CBF;
+    justify-content: space-between;
     color: #310060;
     padding: 20px; /* Adicionado para espaçamento interno */
 }
@@ -207,13 +204,14 @@ ul {
 .colorwhite img {
     max-width: 60%; /* Ajuste para largura máxima de 100% do contêiner pai */
     height: auto; /* Ajuste para altura automática */
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 40px; /* Adicionado para espaçamento inferior */
 }
 
 .colorwhite p {
     color: white;
-    margin-top: 15px;
+    margin-top: 20px;
+    
 }
 
 /* Adicione media queries conforme necessário */
