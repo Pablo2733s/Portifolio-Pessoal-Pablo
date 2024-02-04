@@ -80,6 +80,8 @@ ul {
 }
 
 .containerbranco {
+    display: flex;
+    align-items: center;
     height: 400px;
     width: 100%;
     background-color: whitesmoke;
@@ -89,7 +91,7 @@ ul {
 .containerbranco img {
     margin-top: 30px;
     margin-left: 17.5px;
-    height: 170px;
+    height: 150px;
     width: 30%;
     cursor: pointer;
 }
@@ -191,18 +193,39 @@ ul {
     color: #310060;
 }
 
-.colorwhite img {
-    position: relative;
-    right: 10px;
-    bottom: -50px;
-    height: 200px;
-    justify-content: end;
-
+.colorwhite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ajuste para alinhamento à esquerda */
+    height: auto; /* Ajuste para altura automática */
+    background-color: #7B2CBF;
+    color: #310060;
+    padding: 20px; /* Adicionado para espaçamento interno */
 }
-.colorwhite img:hover {
-    cursor: pointer;
-    transform: scale(1.04);
-    transition: .6s;
+
+.colorwhite img {
+    max-width: 60%; /* Ajuste para largura máxima de 100% do contêiner pai */
+    height: auto; /* Ajuste para altura automática */
+    margin-top: 15px;
+    margin-bottom: 40px; /* Adicionado para espaçamento inferior */
+}
+
+.colorwhite p {
+    color: white;
+    margin-top: 15px;
+}
+
+/* Adicione media queries conforme necessário */
+@media (min-width: 768px) {
+    .colorwhite {
+        flex-direction: row; /* Altere para linha em telas maiores */
+        align-items: center; /* Centralize verticalmente em telas maiores */
+    }
+
+    .colorwhite img {
+        margin-bottom: 0; /* Remova o espaçamento inferior em telas maiores */
+        margin-right: 20px; /* Adicione espaçamento à direita em telas maiores */
+    }
 }
 
 
@@ -211,9 +234,7 @@ ul {
     background-color: #7B2CBF;
 }
 
-.colorwhitwposition p {
-position: absolute; left: 25px; bottom: -1120px
-}
+
 
 .novidade {
     height: 300px;
