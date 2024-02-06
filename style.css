@@ -234,6 +234,10 @@ ul {
         margin-right: 20px; /* Adicione espaçamento à direita em telas maiores */
     }
 
+    .colorwhite p {
+        font-size: 18px;
+    }
+
     .contcaixa2,
     .contcaixa3 {
     margin-top: 10px;
