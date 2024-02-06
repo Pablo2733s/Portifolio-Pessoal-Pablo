@@ -250,7 +250,7 @@ ul {
 
 .novo2 {
     height: 200px;
-    background-color: black;
+    background-color: #310060;
 }
 
 
@@ -268,9 +268,9 @@ ul {
 }
 
 .novidade button {
-    background-color: rebeccapurple;
+    background-color: #310060;
     font-family: cursive;
-    color: #310060;
+    color: white;
     cursor: pointer;
     border-radius: 4px;
 }
