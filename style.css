@@ -13,6 +13,7 @@ body {
 a {
     text-decoration: none;
 }
+
 details {
 
         max-width: 100%;
@@ -48,7 +49,7 @@ details ul {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    gap: 10px;
+    gap: 19px;
     list-style: none;
     background-color: white;
     height: 50px;
@@ -142,7 +143,7 @@ ul {
 .caixas {
     height: 320px;
     width: 100%;
-    background-color: #7B2CBF;
+    background-color: white;
 }
 
 .caixas h5 {
@@ -159,11 +160,17 @@ ul {
     color: white;
     margin-top: 8px;
     height: 60px;
+    margin: auto;
     position: relative;
     bottom: -60px;
-    width: 100%;
+    width: 80%;
     background-color: #240046;
 }
+
+.contcaixa2,
+.contcaixa3 {
+    margin-top: 10px;
+} 
 
 
 .contcaixa1 img  {
@@ -192,10 +199,11 @@ ul {
 
 .colorwhite {
     display: flex;
+    font-family: cursive;
     flex-direction: column;
     align-items: center; /* Ajuste para alinhamento à esquerda */
     height: 200px; /* Ajuste para altura automática */
-    background-color: #7B2CBF;
+    background-color: whitesmoke;
     justify-content: space-between;
     color: #310060;
     padding: 20px; /* Adicionado para espaçamento interno */
@@ -225,44 +233,27 @@ ul {
         margin-bottom: 0; /* Remova o espaçamento inferior em telas maiores */
         margin-right: 20px; /* Adicione espaçamento à direita em telas maiores */
     }
+
+    .contcaixa2,
+    .contcaixa3 {
+    margin-top: 10px;
 }
 
-/* Estilos para telas menores ou iguais a 30 polegadas */
-@media only screen and (max-width: 26in) {
-    .containerbranco {
-        height: 600px; /* Ajuste a altura conforme necessário */
-    }
-
-    .containerbranco img {
-        height: 250px; /* Ajuste a altura da imagem conforme necessário */
-        max-width: 100%; /* A imagem não ultrapassará a largura total do contêiner */
-    }
-}
-
-/* Estilos para telas maiores que 30 polegadas */
-@media only screen and (min-width: 26.1in) {
-    .containerbranco {
-        height: 800px; /* Ajuste a altura conforme necessário */
-    }
-
-    .containerbranco img {
-        height: 350px; /* Ajuste a altura da imagem conforme necessário */
-        max-width: 100%; /* A imagem não ultrapassará a largura total do contêiner */
-    }
 }
 
 
 .novo2 {
-    height: 150px;
-    background-color: #7B2CBF;
+    height: 200px;
+    background-color: black;
 }
 
 
 
 .novidade {
     height: 300px;
-    background-color: #310060;
-    color: white;
+    background-color: whitesmoke;
+    color: #310060;
+    font-family: cursive;
 }
 .novidadenovo {
     display: flex;
@@ -272,8 +263,9 @@ ul {
 }
 
 .novidade button {
-    background-color: #0e76a8;
-    color: white;
+    background-color: rebeccapurple;
+    font-family: cursive;
+    color: #310060;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -281,6 +273,7 @@ ul {
 .novidade button:hover {
     transition: .10s;
     transform: scale(1.05);
+    color: white;
 }
 
 .novidade2 {
@@ -299,7 +292,7 @@ ul {
     margin-top: -20px;
     justify-content: center;
     cursor: pointer;
-    gap: 8px;
+    gap: 15px;
     color: white;
     background-color: black;
 }
