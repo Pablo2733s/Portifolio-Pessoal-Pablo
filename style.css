@@ -242,6 +242,12 @@ ul {
 }
 
 
+@media (max-width: 368px) {
+    .containeroxo {
+        font-size: 10px;
+    }
+}
+
 .novo2 {
     height: 200px;
     background-color: black;
