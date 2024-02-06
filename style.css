@@ -201,7 +201,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center; /* Ajuste para alinhamento à esquerda */
-    height: 200px; /* Ajuste para altura automática */
+    height: 300px; /* Ajuste para altura automática */
     background-color: whitesmoke;
     justify-content: space-between;
     color: #310060;
@@ -209,7 +209,7 @@ ul {
 }
 
 .colorwhite img {
-    max-width: 60%; /* Ajuste para largura máxima de 100% do contêiner pai */
+    max-width: 40%; /* Ajuste para largura máxima de 100% do contêiner pai */
     height: auto; /* Ajuste para altura automática */
     margin-top: 20px;
     margin-bottom: 40px; /* Adicionado para espaçamento inferior */
@@ -225,7 +225,8 @@ ul {
 @media (min-width: 768px) {
     .colorwhite {
         flex-direction: row; /* Altere para linha em telas maiores */
-        align-items: center; /* Centralize verticalmente em telas maiores */
+        align-items: center;
+        height: 300px; /* Centralize verticalmente em telas maiores */
     }
 
     .colorwhite img {
